@@ -22,7 +22,7 @@ body,
 #root {
   margin: 0;
   height: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 main {
@@ -55,6 +55,8 @@ ul {
 
   display: flex;
   flex-direction: column;
+  justify-content: flex-end; 
+
 
 
 }
